@@ -1,15 +1,9 @@
-# chat-example
+# button-example
 
-This is the source code for a very simple chat example used for
-the [Getting Started](http://socket.io/get-started/chat/) guide
-of the Socket.IO website.
+Run command:
 
-Please refer to it to learn how to run this application.
+npm install
 
-You can also spin up a free Heroku dyno to test it out:
+Run Node Server:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/socketio/chat-example)
-
-Or run it on [Repl.it](https://repl.it/):
-
-[![Run on Repl.it](https://repl.it/badge/github/socketio/chat-example)](https://repl.it/github/socketio/chat-example)
+node index.js

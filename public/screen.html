@@ -14,7 +14,7 @@
     <script>
       var socket = io();
 
-      socket.on('receivePress', function(msg) {
+      socket.on('sendFromServerKeyPressed', function(msg) {
         var item = document.getElementById('button_pressed');
 
         item.innerHTML = msg;

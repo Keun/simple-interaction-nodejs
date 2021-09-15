@@ -2,8 +2,8 @@
 
 Run command:
 
-npm install
+```npm install```
 
 Run Node Server:
 
-node index.js
+```node index.js```

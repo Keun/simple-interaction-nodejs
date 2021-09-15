@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 
 io.on('connection', (socket) => {
   socket.on('press', msg => {
-    io.emit('receivePress', msg);
+    io.emit('sendFromServerKeyPressed', 'DIT KNOPJE IS INGEDRUK: '+msg);
   });
 });
 
